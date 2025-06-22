@@ -1,5 +1,10 @@
 # Booking Manager — Full CRUD Application
 
+OPEN FILE:-
+1)CRUD Project Report.pdf----- cover each and every thing about project 
+2)TASK-5 preview.png ----- screenshot of project
+3)Task-5 Preview.png ----- Screenshot of project
+
 This is a simple full-stack CRUD application to manage bookings, built using:
 
 - **Node.js + Express.js** (Backend)
