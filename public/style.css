@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+  background: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#wrapper {
+  min-height: 100vh;
+}
+
+#sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d3557, #457b9d);
+  box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+
+#sidebar h2 {
+  font-weight: bold;
+  color: #f1faee;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  color: #f1faee;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover, .list-group-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f1faee;
+}
+
+#content {
+  background: #f8f9fa;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  font-weight: 600;
+  color: #1d3557;
+}
+
+input, select, button {
+  border-radius: 8px !important;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table thead {
+  font-weight: 600;
+  background: #1d3557;
+  color: white;
+}
+
+.btn-primary {
+  background: #457b9d;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #1d3557;
+}
+
+.alert {
+  border-radius: 10px;
+}
